@@ -1,11 +1,16 @@
-# quiz
+# Vue Js quizApp
 
-## Project setup
+## Quick setup
+
+
+``` bash
+### Install dependencies
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development on localhost:8080
 ```
 npm run serve
 ```
