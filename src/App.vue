@@ -10,7 +10,8 @@
             :currentQuestion="questions[index]"
             :next="next"
             :increment="increment"
-        /></b-col>
+          />
+        </b-col>
       </b-row>
     </b-container>
   </div>
@@ -44,7 +45,7 @@ export default {
       this.numTotal++;
     },
   },
-  mounted: function() {
+  mounted: function () {
     fetch("https://opentdb.com/api.php?amount=10&category=18&type=multiple", {
       method: "get",
     })
@@ -66,7 +67,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: #343a40;
+}
+
+body {
+  background: #343a40;
 }
 </style>
-
-

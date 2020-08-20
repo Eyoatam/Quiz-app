@@ -1,9 +1,7 @@
 <template>
   <div class="question-box-container">
     <b-jumbotron>
-      <template v-slot:lead>
-        {{ currentQuestion.question }}
-      </template>
+      <template v-slot:lead>{{ currentQuestion.question }}</template>
 
       <hr class="my-4" />
 
@@ -13,17 +11,14 @@
           :key="index"
           @click.prevent="selectAnswer(index)"
           :class="answerClass(index)"
-        >
-          {{ answer }}
-        </b-list-group-item>
+        >{{ answer }}</b-list-group-item>
       </b-list-group>
 
       <b-button
         variant="primary"
         @click="submit"
         :disabled="selectedIndex === null || answered"
-        >Submit</b-button
-      >
+      >Submit</b-button>
       <b-button @click="next" variant="outline-info">Next</b-button>
     </b-jumbotron>
   </div>
@@ -119,7 +114,7 @@ export default {
   transform-origin: center;
 }
 .list-group-item:hover {
-  background: #e9ecef;
+  background: #e4ecee;
   cursor: pointer;
 }
 .btn {
@@ -129,16 +124,16 @@ export default {
 
 .selected {
   background-color: #007bff;
-  color: white;
+  color: #fff;
 }
 
 .correct {
   background-color: #28a745;
-  color: white;
+  color: #fff;
 }
 
 .incorrect {
   background-color: #dc3545;
-  color: white;
+  color: #fff;
 }
 </style>
