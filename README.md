@@ -1,6 +1,6 @@
 # Vue Js quizApp
 
-## Quick setup
+## Project setup
 
 ``` bash
 # Install dependencies
