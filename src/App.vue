@@ -60,9 +60,15 @@ export default {
 </script>
 
 <style>
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 #app {
   font-family: "Montserrat", sans-serif;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+#app {
+   font-family: 'Montserrat', sans-serif; 
+>>>>>>> c7d6b802e056f537304d03e486748136b988f993
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -70,6 +76,10 @@ export default {
   margin-top: 60px;
   background: #343a40;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c7d6b802e056f537304d03e486748136b988f993
 body {
   background: #343a40;
 }

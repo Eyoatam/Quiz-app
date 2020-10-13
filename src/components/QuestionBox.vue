@@ -2,9 +2,11 @@
   <div class="question-box-container">
     <b-jumbotron>
       <template v-slot:lead>{{ currentQuestion.question }}</template>
+<<<<<<< HEAD
 
+=======
+>>>>>>> c7d6b802e056f537304d03e486748136b988f993
       <hr class="my-4" />
-
       <b-list-group>
         <b-list-group-item
           v-for="(answer, index) in answers"
